@@ -60,9 +60,10 @@ const Join = () => {
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                 {"2 - Tu rejoins le discord pour avoir toutes les infos à venir, poser tes questions et proposer des idées ! 🤓"}
               </div>
-              {/* <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
-                {"3 - Tu paies ta place via la cagnotte, pense à mettre le même nom que sur le formulaire 😉"}
-              </div> */}
+              <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                {/* {"3 - Tu paies ta place via la cagnotte, pense à mettre le même nom que sur le formulaire 😉"} */}
+                {"3 - La cagnotte revient bientôt 😉"}
+              </div>
               <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                 {"L’ordre de participation à la cagnotte sera le dernier critère pour départager la sélection des pôles 🚀"}
               </div>

@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://petit-salon.vercel.app/">
+  <a href="https://poule-party.vercel.app/">
     <img src="public/images/logo/500x500.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
     GitHub Repository for the Poule Party Website
     <br />
     <br />
-    <a href="https://petit-salon.vercel.app/">Access Website</a>
+    <a href="https://poule-party.vercel.app/">Access Website</a>
   </p>
 </div>
 
@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Tony Lim - [GitHub](https://github.com/TonyLim658) - [LinkedIn](https://www.linkedin.com/in/tlim/)
 
-Project Link: [https://github.com/TonyLim658/petit-salon](https://github.com/TonyLim658/petit-salon)
+Project Link: [https://github.com/TonyLim658/poule-party](https://github.com/TonyLim658/poule-party)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
