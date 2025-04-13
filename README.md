@@ -3,17 +3,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://poule-party.vercel.app/">
+  <a href="https://petit-salon.vercel.app/">
     <img src="public/images/logo/500x500.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Poule Party Website</h3>
+  <h3 align="center">Petit Salon Website</h3>
 
   <p align="center">
-    GitHub Repository for the Poule Party Website
+    GitHub Repository for the Petit Salon Website
     <br />
     <br />
-    <a href="https://poule-party.vercel.app/">Access Website</a>
+    <a href="https://petit-salon.vercel.app/">Access Website</a>
   </p>
 </div>
 
@@ -52,7 +52,7 @@
 This project is based thanks to the template of NextjsTemplates
 Here is the original template: https://startup.nextjstemplates.com/
 
-This project is a static website for the Poule Party project, a festival in France. It compiles main information such as place, date, events...
+This project is a static website for the Petit Salon project, a festival in France. It compiles main information such as place, date, events...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Tony Lim - [GitHub](https://github.com/TonyLim658) - [LinkedIn](https://www.linkedin.com/in/tlim/)
 
-Project Link: [https://github.com/TonyLim658/poule-party](https://github.com/TonyLim658/poule-party)
+Project Link: [https://github.com/TonyLim658/petit-salon](https://github.com/TonyLim658/petit-salon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

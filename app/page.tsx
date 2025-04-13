@@ -6,8 +6,8 @@ import Join from "@/components/Hero/Join";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accueil | Poule Party",
-  description: "Page d'accueil de la Poule Party",
+  title: "Accueil | Petit Salon",
+  description: "Page d'accueil de la Petit Salon",
   // other metadata
 };
 

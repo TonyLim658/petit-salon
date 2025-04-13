@@ -4,8 +4,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact & Formulaires | Poule Party",
-  description: "Page de contact & formulaires de la Poule Party",
+  title: "Contact & Formulaires | Petit Salon",
+  description: "Page de contact & formulaires du Petit Salon",
   // other metadata
 };
 

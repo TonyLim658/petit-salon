@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Programmation | Poule Party",
-  description: "Page de la programmation de la Poule Party",
+  title: "Programmation | Petit Salon",
+  description: "Page de la programmation du Petit Salon",
   // other metadata
 };
 

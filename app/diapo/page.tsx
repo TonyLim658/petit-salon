@@ -4,8 +4,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Diapo | Poule Party",
-  description: "Page du diapo annonce de la Poule Party",
+  title: "Diapo | Petit Salon",
+  description: "Page du diapo annonce du Petit Salon",
   // other metadata
 };
 
