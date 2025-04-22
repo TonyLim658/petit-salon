@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
-import SingleArtiste from "./SingleArtiste";
-import artisteData from "./artisteData";
+import SingleSession from "./SingleSession";
+import sessionData from "./sessionData";
 
 const ProgrammationSectionOne = () => {
   return (
@@ -9,29 +9,25 @@ const ProgrammationSectionOne = () => {
       className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28"
     >
       <div className="container">
-        <SectionTitle
-          title="Musicien·nes"
-          center
-        />
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 block md:hidden ">
-          {artisteData.map((artiste) => { 
+          {sessionData.map((session) => { 
             return (
-            <div key={artiste.id} className="w-full">
+            <div key={session.id} className="w-full">
               <div>
-                <SingleArtiste artiste={artiste} />
+                <SingleSession session={session} />
               </div>
             </div>
           )})}
         </div>
         <div className="grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 md:grid hidden">
           <div className="w-[1/2]">
-            {artisteData.map((artiste) => { 
-              const isOdd = artiste.id % 2 === 1;
+            {sessionData.map((session) => { 
+              const isOdd = session.id % 2 === 1;
               return (
-              <div key={artiste.id} className="w-full mb-8">
+              <div key={session.id} className="w-full mb-8">
               {isOdd && 
                 <div>
-                  <SingleArtiste artiste={artiste} />
+                  <SingleSession session={session} />
                   {/* <img
                     src="/images/hero/join.webp"
                     alt="join-image"
@@ -44,11 +40,11 @@ const ProgrammationSectionOne = () => {
             )})}
           </div>
           <div className="w-[1/2] mt-none md:mt-52">
-            {artisteData.map((artiste) => { 
-              const isOdd = artiste.id % 2 === 1;
+            {sessionData.map((session) => { 
+              const isOdd = session.id % 2 === 1;
               return (
-              <div key={artiste.id} className="w-full mb-8">
-              {!isOdd && 
+              <div key={session.id} className="w-full mb-8">
+              {!isOdd &&
                 <div>
                   {/* <img
                       src="/images/hero/join.webp"
@@ -57,7 +53,7 @@ const ProgrammationSectionOne = () => {
                       width={100}
                       className="drop-shadow-three rounded-lg hidden md:block"
                   /> */}
-                  <SingleArtiste artiste={artiste} />
+                  <SingleSession session={session} />
                   {/* <img
                     src="/images/hero/join.webp"
                     alt="join-image"

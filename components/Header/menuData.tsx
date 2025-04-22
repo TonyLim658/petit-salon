@@ -23,33 +23,33 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Programmation",
+    title: "Sessions",
     path: "/programmation",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Pôles",
-    path: "/roles",
-    newTab: false,
-  },
-  {
-    id: 4,
-    title: "Le lieu",
-    path: "/access",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Pôles",
+  //   path: "/roles",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Le lieu",
+  //   path: "/access",
+  //   newTab: false,
+  // },
   // {
   //   id: 5,
   //   title: "Notre équipe",
   //   path: "/about",
   //   newTab: false,
   // },
-  {
-    id: 6,
-    title: "Annonce du 17/02",
-    path: "/diapo",
-    newTab: false,
-  },
+  // {
+  //   id: 6,
+  //   title: "Annonce du 17/02",
+  //   path: "/diapo",
+  //   newTab: false,
+  // },
 ];
 export default menuData;

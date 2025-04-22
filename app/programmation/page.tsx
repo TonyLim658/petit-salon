@@ -4,8 +4,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Programmation | Petit Salon",
-  description: "Page de la programmation du Petit Salon",
+  title: "Sessions | Petit Salon",
+  description: "Page des différentes sessions du Petit Salon",
   // other metadata
 };
 
@@ -13,8 +13,8 @@ const Programmation = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Programmation"
-        description="Les musicien.nes et les exposant.es que vous rencontrerez au Petit Salon!"
+        pageName="Sessions"
+        description="Les présentations faites au Petit Salon!"
       />
         <ProgrammationSectionOne />
     </>
