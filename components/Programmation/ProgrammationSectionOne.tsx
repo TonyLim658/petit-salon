@@ -25,7 +25,7 @@ const ProgrammationSectionOne = () => {
               const isOdd = session.id % 2 === 1;
               return (
               <div key={session.id} className="w-full mb-8">
-              {isOdd && 
+              {isOdd &&
                 <div>
                   <SingleSession session={session} />
                   {/* <img

@@ -1,14 +1,7 @@
-import Image from "next/image";
-import SectionTitle from "../Common/SectionTitle";
-
 const Project = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28" id="project">
       <div className="container">
-          <SectionTitle
-            title="Le Projet"
-            center
-          />
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-2/5">
             <div
@@ -26,27 +19,17 @@ const Project = () => {
             <div className="wow fadeInUp" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Poule Party
+                  Culture, Plaisir & Respect✨
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  La Poule Party est un évènement communautaire où tout le monde est bénévole, les festivaliers, les musiciens et les exposants.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Scène Ouverte
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  La programmation de journée est participative avec une scène ouverte dont les bénévoles proposent des concerts, des spectacles et des ateliers.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Stands & Base de vie
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Une partie du festival est dédiée à des stands de créateurs comme des friperies ou des tatoueurs. Un espace de restauration est également mis en place.
-                </p>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  Le but est de laisser un espace d&apos;expression sur un sujet qui nous passionne.
+                </div>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  Prendre le plaisir de partager ce qui nous anime tout en pouvant prendre le temps d&apos;avoir un support de présentation.
+                </div>
+                <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
+                  Nous mettons un·e musicien·ne à l&apos;honneur à chaque session!🎷
+                </div>
               </div>
             </div>
           </div>
