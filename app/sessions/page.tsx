@@ -1,4 +1,4 @@
-import ProgrammationSectionOne from "@/components/Programmation/ProgrammationSectionOne";
+import SessionSectionOne from "@/components/Session/SessionSectionOne";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -9,16 +9,16 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const Programmation = () => {
+const Sessions = () => {
   return (
     <>
       <Breadcrumb
         pageName="Sessions"
         description="Les présentations faites au Petit Salon!"
       />
-        <ProgrammationSectionOne />
+        <SessionSectionOne />
     </>
   );
 };
 
-export default Programmation;
+export default Sessions;

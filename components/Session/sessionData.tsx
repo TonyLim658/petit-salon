@@ -4,8 +4,8 @@ const sessionData: Session[] = [
   {
     id: 1,
     nom: "#1",
-    description: "Michael Zerbib au piano",
-    video: "https://www.youtube.com/embed/1EPNYWeEf1U?si=1VvqGK43Ogy0Qixl",
+    description: "Michaël Zerbib au piano 🎹",
+    video: "https://www.youtube.com/embed/oNsOQ7d3stY?si=WFKYom278ObmfXtm",
     presentations: [
       "Benjamin Vayrac - La Théorie de l'Evolution",
       "Tony Lim - Le Cambodge",

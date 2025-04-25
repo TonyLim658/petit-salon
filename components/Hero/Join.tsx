@@ -28,7 +28,7 @@ const Join = () => {
                   {"12 Minutes de Présentations et 8 Minutes de Questions / Réponses"}
                 </div>
                 <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
-                  {"Un écran, un ordinateur et le sourires des présentateur·ice·s!"}
+                  {"Un écran, un ordinateur et le sourire des présentateur·ice·s!"}
                 </div>
                 {deroule.map((slot, idx) => {
                   return (
@@ -45,10 +45,12 @@ const Join = () => {
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
-                <img
-                  src="/images/hero/join.webp"
+                <Image
+                  src="/images/hero/passages.webp"
                   alt="join-image"
                   className="drop-shadow-three rounded-lg"
+                  width={500}
+                  height={480}
                 />
               </div>
             </div>
@@ -60,15 +62,16 @@ const Join = () => {
 };
 
 const deroule = [
-  "14h - Buvette",
+  "14h - Buvette 🍾",
   "14h50 - Speech d'ouverture",
   "15h - Présentation 1",
   "15h30 - Présentation 2",
   "16h - Présentation 3",
-  "16h20 - ENTRACTE",
+  "16h20 - ENTRACTE 🎺",
   "17h30 - Présentation 4",
   "18h - Présentation 5",
   "18h30 - Présentation 6",
+  "19h - After Partyyy 🍻",
 ];
 
 export default Join;

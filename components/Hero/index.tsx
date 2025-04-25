@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -15,10 +15,10 @@ const Hero = () => {
                 data-wow-delay=".6s"
               >
                 <div className="flex md:hidden">
-                  <img src="/images/hero/affiche.webp" alt="affiche" className="w-full max-w-full"/>
+                  <Image src="/images/hero/index.webp" alt="affiche" className="w-full max-w-full" layout="responsive" width={500} height={500} />
                 </div>
-                <div className="flex hidden md:block">
-                  <img src="/images/hero/index.webp" alt="visu-index" className="w-full max-w-full"/>
+                <div className="hidden md:block">
+                  <Image src="/images/hero/index.webp" alt="visu-index" className="w-full max-w-full" layout="responsive" width={500} height={500} />
                 </div>
               </div>
             </div>

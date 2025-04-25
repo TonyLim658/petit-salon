@@ -2,7 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleSession from "./SingleSession";
 import sessionData from "./sessionData";
 
-const ProgrammationSectionOne = () => {
+const SessionSectionOne = () => {
   return (
     <section
       id="programmation"
@@ -71,4 +71,4 @@ const ProgrammationSectionOne = () => {
   );
 };
 
-export default ProgrammationSectionOne;
+export default SessionSectionOne;

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Project = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28" id="project">
@@ -6,12 +8,13 @@ const Project = () => {
           <div className="w-full px-4 lg:w-2/5">
             <div
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[700px] text-center lg:m-0"
-              data-wow-delay=".15s"
             >
-              <img
-                src="/images/hero/project1.webp"
+              <Image
+                src="/images/hero/piano.webp"
                 alt="festival-stage"
                 className="drop-shadow-three rounded-lg"
+                width={700}
+                height={672}
               />
             </div>
           </div>

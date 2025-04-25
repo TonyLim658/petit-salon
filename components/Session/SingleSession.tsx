@@ -16,7 +16,7 @@ const SingleSession = ({ session }: { session: Session }) => {
         <div
           className="relative block aspect-[37/22] w-full"
         >
-          <iframe width="560" height="315" src={video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+          <iframe width="100%" height="100%" src={video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
           </iframe>
         </div>
         <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
@@ -31,7 +31,7 @@ const SingleSession = ({ session }: { session: Session }) => {
             {description}
           </p>
           <div className="flex items-center">
-            <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
+            <div className="mr-5 flex items-center pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
               <div className="w-full">
                 {presentations.map((presentation, idx) => {
                   return (
