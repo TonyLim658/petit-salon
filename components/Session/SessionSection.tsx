@@ -2,7 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleSession from "./SingleSession";
 import sessionData from "./sessionData";
 
-const SessionSectionOne = () => {
+const SessionSection = () => {
   return (
     <section
       id="programmation"
@@ -28,13 +28,6 @@ const SessionSectionOne = () => {
               {isOdd &&
                 <div>
                   <SingleSession session={session} />
-                  {/* <img
-                    src="/images/hero/join.webp"
-                    alt="join-image"
-                    height={100}
-                    width={100}
-                    className="drop-shadow-three rounded-lg"
-                  /> */}
                 </div>}
               </div>
             )})}
@@ -46,21 +39,7 @@ const SessionSectionOne = () => {
               <div key={session.id} className="w-full mb-8">
               {!isOdd &&
                 <div>
-                  {/* <img
-                      src="/images/hero/join.webp"
-                      alt="join-image"
-                      height={100}
-                      width={100}
-                      className="drop-shadow-three rounded-lg hidden md:block"
-                  /> */}
                   <SingleSession session={session} />
-                  {/* <img
-                    src="/images/hero/join.webp"
-                    alt="join-image"
-                    height={100}
-                    width={100}
-                    className="drop-shadow-three rounded-lg block md:hidden"
-                  /> */}
                 </div>}
               </div>
             )})}
@@ -71,4 +50,4 @@ const SessionSectionOne = () => {
   );
 };
 
-export default SessionSectionOne;
+export default SessionSection;

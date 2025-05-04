@@ -1,4 +1,4 @@
-import SessionSectionOne from "@/components/Session/SessionSectionOne";
+import SessionSection from "@/components/Session/SessionSection";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
@@ -16,7 +16,7 @@ const Sessions = () => {
         pageName="Sessions"
         description="Les présentations faites au Petit Salon!"
       />
-        <SessionSectionOne />
+        <SessionSection />
     </>
   );
 };
