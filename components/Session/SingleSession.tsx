@@ -16,8 +16,16 @@ const SingleSession = ({ session }: { session: Session }) => {
         <div
           className="relative block aspect-[37/22] w-full"
         >
-          <iframe width="100%" height="100%" src={video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-          </iframe>
+          { video && (
+            <iframe width="100%" height="100%" src={video} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+            </iframe>
+          )
+          }
+          { !video && (
+            <div className="flex h-full items-center justify-center text-2xl font-bold text-gray-500 dark:text-white">
+              Présentation à venir
+            </div>
+          )}
         </div>
         <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
           <h3>
