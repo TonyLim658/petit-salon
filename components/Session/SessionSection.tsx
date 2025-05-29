@@ -10,7 +10,7 @@ const SessionSection = () => {
     >
       <div className="container">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 block md:hidden ">
-          {sessionData.map((session) => { 
+          {sessionData.reverse().map((session) => { 
             return (
             <div key={session.id} className="w-full">
               <div>

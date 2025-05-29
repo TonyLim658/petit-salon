@@ -23,7 +23,7 @@ const SingleSession = ({ session }: { session: Session }) => {
           }
           { !video && (
             <div className="flex h-full items-center justify-center text-2xl font-bold text-gray-500 dark:text-white">
-              Présentation à venir
+              Session à venir
             </div>
           )}
         </div>

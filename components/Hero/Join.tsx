@@ -30,13 +30,15 @@ const Join = () => {
                 <div className="mb-4 text-l text-black dark:text-white sm:text-xl lg:text-l xl:text-xl">
                   {"Un écran, un ordinateur et le sourire des présentateur·ice·s!"}
                 </div>
-                {deroule.map((slot, idx) => {
-                  return (
-                    <div className="mb-4 text-m text-black dark:text-white sm:text-l lg:text-m xl:text-l" key={idx}>
-                      {slot}
-                    </div>
-                  );
-                })}
+                <div className="ml-3">
+                  {deroule.map((slot, idx) => {
+                    return (
+                      <div className="mb-2 text-m text-black dark:text-white sm:text-l lg:text-m xl:text-l" key={idx}>
+                        {slot}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
 
@@ -62,16 +64,14 @@ const Join = () => {
 };
 
 const deroule = [
-  "14h - Buvette 🍾",
-  "14h50 - Speech d'ouverture",
-  "15h - Présentation 1",
-  "15h30 - Présentation 2",
-  "16h - Présentation 3",
+  "14h14 - Buvette 🍾",
+  "15h20 - Speech d'ouverture",
+  "15h30 - Présentation 1",
+  "16h - Présentation 2",
   "16h20 - ENTRACTE 🎺",
-  "17h30 - Présentation 4",
-  "18h - Présentation 5",
-  "18h30 - Présentation 6",
-  "19h - After Partyyy 🍻",
+  "17h30 - Présentation 3",
+  "18h - Présentation 4",
+  "18h30 - After Partyyy 🍻",
 ];
 
 export default Join;

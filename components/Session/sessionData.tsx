@@ -30,10 +30,11 @@ const sessionData: Session[] = [
     nom: "#3 le 15 Juin 2025",
     description: "",
     presentations: [
-      "Juliette - ?",
-      "Natalène Sylveste - ?",
-      "François Simonin - ?",
-      "Melvin Le Nevé - ?",
+      "(Ordre à déterminer)",
+      "Juliette Labattut - L'Archéométrie",
+      "Natalène Sylvestre - La Sémiotique",
+      "François Simonin - Animation : Faire rêver l'Enfant et parler à l'Adulte",
+      "Melvin Le Nevé - La Poissonnerie et la Taille des Poissons",
     ]
   },
 ];
