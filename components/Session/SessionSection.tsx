@@ -22,7 +22,7 @@ const SessionSection = () => {
         <div className="grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 md:grid hidden">
           <div className="w-[1/2]">
             {sessionData.map((session) => { 
-              const isOdd = session.id % 2 === 1;
+              const isOdd = session.id % 2 === 0;
               return (
               <div key={session.id} className="w-full mb-8">
               {isOdd &&
@@ -34,7 +34,7 @@ const SessionSection = () => {
           </div>
           <div className="w-[1/2] mt-none md:mt-52">
             {sessionData.map((session) => { 
-              const isOdd = session.id % 2 === 1;
+              const isOdd = session.id % 2 === 0;
               return (
               <div key={session.id} className="w-full mb-8">
               {!isOdd &&

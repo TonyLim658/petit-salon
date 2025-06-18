@@ -28,13 +28,20 @@ const sessionData: Session[] = [
   {
     id: 3,
     nom: "#3 le 15 Juin 2025",
-    description: "",
+    description: "Michaël Zerbib au piano 🎹",
+    video: "https://www.youtube.com/embed/zmHTSViDPZA?si=r6IFHgfEf00ghU8O",
     presentations: [
-      "(Ordre à déterminer)",
-      "Juliette Labattut - L'Archéométrie",
-      "Natalène Sylvestre - La Sémiotique",
+      "Camille Labattut - L'Archéométrie",
       "François Simonin - Animation : Faire rêver l'Enfant et parler à l'Adulte",
       "Melvin Le Nevé - La Poissonnerie et la Taille des Poissons",
+      "Natalène Sylvestre - La Sémiotique",
+    ]
+  },
+  {
+    id: 4,
+    nom: "#4 le 13 Juillet 2025",
+    description: "",
+    presentations: [
     ]
   },
 ];
