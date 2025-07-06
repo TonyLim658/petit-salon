@@ -8,6 +8,9 @@ const SingleSession = ({ session }: { session: Session }) => {
     video,
     presentations
   } = session;
+  const audioSrc = audio ?
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + audio + "&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+   : "";
   return (
     <>
       <div
@@ -30,11 +33,11 @@ const SingleSession = ({ session }: { session: Session }) => {
           { audio && (
             <iframe
               width="100%"
-              height="300px"
+              height="100%"
               scrolling="no"
               frameBorder="no"
               allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1943022411&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+              src={audioSrc}
             />
           )}
         </div>

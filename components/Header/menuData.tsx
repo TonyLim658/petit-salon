@@ -27,12 +27,12 @@ const menuData: Menu[] = [
     path: "/sessions",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Pâte Épinard",
-    path: "/pate-epinard",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Pâte Épinard",
+  //   path: "/pate-epinard",
+  //   newTab: false,
+  // },
   // {
   //   id: 4,
   //   title: "Le lieu",
