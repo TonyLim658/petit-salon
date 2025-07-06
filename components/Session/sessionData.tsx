@@ -40,8 +40,13 @@ const sessionData: Session[] = [
   {
     id: 4,
     nom: "#4 le 13 Juillet 2025",
-    description: "",
+    description: "Laurine au Violon 🎻",
     presentations: [
+      "(Ordre à définir)",
+      "Ursula",
+      "Aëla Ollivier",
+      "Enora Motton",
+      "Raphaëlle Cordes - "
     ]
   },
 ];

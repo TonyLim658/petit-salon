@@ -13,7 +13,7 @@ const Sessions = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Sessions"
+        pageName="Le Petit Salon"
         description="Les présentations faites au Petit Salon!"
       />
         <SessionSection />

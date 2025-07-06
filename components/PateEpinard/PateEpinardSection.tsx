@@ -1,7 +1,7 @@
 import SingleSession from "../Common/SingleSession";
-import sessionData from "./sessionData";
+import pateEpinardData from "./pateEpinardData";
 
-const SessionSection = () => {
+const PateEpinardSection = () => {
   return (
     <section
       id="programmation"
@@ -9,7 +9,7 @@ const SessionSection = () => {
     >
       <div className="container">
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 block md:hidden ">
-          {sessionData.reverse().map((session) => { 
+          {pateEpinardData.reverse().map((session) => { 
             return (
             <div key={session.id} className="w-full">
               <div>
@@ -20,7 +20,7 @@ const SessionSection = () => {
         </div>
         <div className="grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-2 md:grid hidden">
           <div className="w-[1/2]">
-            {sessionData.map((session) => { 
+            {pateEpinardData.map((session) => { 
               const isOdd = session.id % 2 === 0;
               return (
               <div key={session.id} className="w-full mb-8">
@@ -32,7 +32,7 @@ const SessionSection = () => {
             )})}
           </div>
           <div className="w-[1/2] mt-none md:mt-52">
-            {sessionData.map((session) => { 
+            {pateEpinardData.map((session) => { 
               const isOdd = session.id % 2 === 0;
               return (
               <div key={session.id} className="w-full mb-8">
@@ -49,4 +49,4 @@ const SessionSection = () => {
   );
 };
 
-export default SessionSection;
+export default PateEpinardSection;

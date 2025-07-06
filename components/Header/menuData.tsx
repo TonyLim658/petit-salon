@@ -23,16 +23,16 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Sessions",
+    title: "Petit Salon",
     path: "/sessions",
     newTab: false,
   },
-  // {
-  //   id: 3,
-  //   title: "Pôles",
-  //   path: "/roles",
-  //   newTab: false,
-  // },
+  {
+    id: 3,
+    title: "Pâte Épinard",
+    path: "/pate-epinard",
+    newTab: false,
+  },
   // {
   //   id: 4,
   //   title: "Le lieu",
