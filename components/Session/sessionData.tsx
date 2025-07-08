@@ -40,13 +40,13 @@ const sessionData: Session[] = [
   {
     id: 4,
     nom: "#4 le 13 Juillet 2025",
-    description: "Laurine au Violon 🎻",
+    description: "",
     presentations: [
       "(Ordre à définir)",
-      "Ursula",
-      "Aëla Ollivier",
-      "Enora Motton",
-      "Raphaëlle Cordes - "
+      "Ursula Clément de Givry - Le Met Gala 2025",
+      "Aëla Ollivier - Comment déterminer les climats du passé",
+      "Enora Motton - La Solitude",
+      "Raphaëlle Cordes - La Visibilité du Sport Féminin",
     ]
   },
 ];
