@@ -20,7 +20,7 @@ const sessionData: Session[] = [
     video: "https://www.youtube.com/embed/c6E1Qw4HmjM?si=Sh5w3yKQKk_lhKNt",
     presentations: [
       "Benjamin Vayrac - Le Véganisme",
-      "Tony Lim - Cook un Site Web",
+      "Tony Lim - Cook un Site Web en Légende",
       "Louna Denis Dancale - Les Podcasts",
       "Yseult Veschambre - La Culture Pop",
     ]
@@ -37,17 +37,17 @@ const sessionData: Session[] = [
       "Natalène Sylvestre - La Sémiotique",
     ]
   },
-  {
-    id: 4,
-    nom: "#4 le 13 Juillet 2025",
-    description: "",
-    presentations: [
-      "(Ordre à définir)",
-      "Ursula Clément de Givry - Le Met Gala 2025",
-      "Aëla Ollivier - Comment déterminer les climats du passé",
-      "Enora Motton - La Solitude",
-      "Raphaëlle Cordes - La Visibilité du Sport Féminin",
-    ]
-  },
+  // {
+  //   id: 4,
+  //   nom: "#4 le 21 Septembre 2025",
+  //   description: "",
+  //   presentations: [
+  //     "(Ordre à définir)",
+  //     "Ursula Clément de Givry - Le Met Gala 2025",
+  //     "Aëla Ollivier - Comment déterminer les Climats du Passé",
+  //     "Tony Lim - JE DÉBUNKE LA BANANE😱",
+  //     "Raphaëlle Cordes - La Visibilité du Sport Féminin",
+  //   ]
+  // },
 ];
 export default sessionData;
