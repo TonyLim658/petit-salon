@@ -37,17 +37,16 @@ const sessionData: Session[] = [
       "Natalène Sylvestre - La Sémiotique",
     ]
   },
-  // {
-  //   id: 4,
-  //   nom: "#4 le 21 Septembre 2025",
-  //   description: "",
-  //   presentations: [
-  //     "(Ordre à définir)",
-  //     "Ursula Clément de Givry - Le Met Gala 2025",
-  //     "Aëla Ollivier - Comment déterminer les Climats du Passé",
-  //     "Tony Lim - JE DÉBUNKE LA BANANE😱",
-  //     "Raphaëlle Cordes - La Visibilité du Sport Féminin",
-  //   ]
-  // },
+  {
+    id: 4,
+    nom: "#4 le 21 Septembre 2025",
+    description: "",
+    video: "https://www.youtube.com/embed/NQCdMMoLvFY?si=QVISG4k22i9Zz2vb",
+    presentations: [
+      "Tony Lim - JE DÉBUNKE LA BANANE😱",
+      "Carla Constantini - Necro Politiques",
+      "Hugo Navarro - Ma vie, mon oeuvre",
+    ]
+  },
 ];
 export default sessionData;
